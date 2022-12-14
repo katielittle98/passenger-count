@@ -1,0 +1,73 @@
+
+body {
+    background-image:  	linear-gradient(180deg,
+                        rgba(0,0,0,0.4) 0%,
+                        rgba(0,0,0,0.5) 100%),
+                        url(station.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    overflow-x: hidden;
+    height: 100vh;
+    color: black;
+    
+}
+
+.container {
+    background-color: white;
+    max-width: 50%;
+    margin: auto;
+    margin-top: 80px;
+    border: 1px solid black;
+}
+
+
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#increment-btn:hover {
+    border: 2px solid white; 
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
+#save-btn:hover {
+    border: 2px solid white; 
+}
+
+#save-el {
+    font-size: 20px;
+}
+
+@media (max-width: 700px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    #increment-btn {
+        width: 100%;
+    }
+    #save-btn {
+        width: 100%;
+    }
+}
